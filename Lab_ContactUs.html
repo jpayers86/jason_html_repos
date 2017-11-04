@@ -4,15 +4,64 @@
         <title>Lab - ContactUs</title>
     </head>
     <body>
-        <table width="40%">
-            <tr>
-                <td>First Name:</td>
-                <td><input type="text" name="FirstName"</td>
-            </tr>
-            <tr>
-                <td>Last Name:</td>
-                <td><input type="text" name="LastName"</td>
-            </tr>
-        </table>
+        <form action="" method="POST">
+            <table>
+                <col width="180">
+                <col width="100">
+                <col width="100">
+                <tr>
+                    <td align="right">First Name:</td>
+                    <td><input type="text" name="FirstName" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Last Name:</td>
+                    <td><input type="text" name="LastName" width="100%" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Email:</td>
+                    <td><input type="text" name="Email" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Type of License:</td>
+                    <td>
+                        <input type="radio" name="TypeOfLicense" value="Business" checked />Business
+                        <input type="radio" name="TypeOfLicense" value="Personal" />Personal
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right">Reason:</td>
+                    <td> 
+                        <select name="reason" style="width: 175px;"
+                            <option value="Select a Reason"/>Select a Reason</option>
+                            <option value="Software Support"/>Software Support</option>
+                            <option value="Hardware Support"/>Hardware Support</option>
+                            <option value="Information Request"/>Information Request</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="right" valign="top">Additonal Information:</td>
+                    <td><textarea name="AdditionalInfo" style="width: 170px;"></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2"><input type="checkbox" name="terms" value="terms" />I have read the terms of service.</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right"><input type="submit" id="submitButton" value="Send Request" /></td>
+                </tr>
+            </table>
+        </form>
     </body>
 </html>
+
+<!--
+Select (Dropdown):<br/>
+<select name="phones">
+    <option value="iPhone6"/>iPhone6</option>
+    <option value="Galaxy S6"/>Galaxy S6</option>
+    <option value="Nexus 5abc"/>Nexus 5</option>
+</select><br/>
+<textarea name="briefDescription"></textarea><br/>
+-->
