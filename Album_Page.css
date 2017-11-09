@@ -1,0 +1,15 @@
+.warning{
+    /*display: none;*/
+    font-weight: bold;
+    color: red;
+}
+
+div.warning{font-style: italic;}
+
+a:hover {
+background-color: yellow;
+}
+
+#members {
+    color:royalblue;
+}
