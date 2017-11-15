@@ -1,0 +1,37 @@
+.BostonFont{
+    font-family: Broadway;
+    color: royalblue
+}
+
+.CustomFont{
+    font-family: 'Lobster', cursive;
+}
+
+a {
+    text-decoration: none;
+    font-weight: none;
+  }
+  
+  a:link {
+    color: Green;
+  }
+  
+  a:visited {
+    color: Red;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #00c;
+    font-family: cursive;
+    background-color: yellow;
+  }
+  
+  a:active {
+    font-weight: bold;
+  }
+
+  tbody tr{
+    font-style: italic;
+    background-color: lemonchiffon;
+  }

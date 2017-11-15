@@ -1,0 +1,54 @@
+a {
+    font-family: monospace;
+    text-decoration: underline;
+    font-weight: none;
+  }
+  
+  a:link {
+    color: Green;
+  }
+  
+  a:visited {
+    color: Red;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #00c;
+    font-family: cursive;
+  }
+  
+  a:active {
+    font-weight: bold;
+  }
+
+  .tHeading{
+      font-weight: bold;
+      font-size: 28;
+  }
+
+table, th, td {
+    border:1px solid blue;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+}
+
+table {
+    width: 100%;
+}
+
+tbody td {
+    vertical-align: top;
+}
+
+th {
+    height: 25px;
+    text-align: top;
+}
+
+tfoot {
+    text-align: center;
+}

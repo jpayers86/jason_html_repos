@@ -1,0 +1,26 @@
+thead {
+    font-weight: bold;
+    font-size: 18;
+    text-align: left;
+}
+
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right:5px;
+}
+
+table, td {
+    vertical-align: top;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lawngreen;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lemonchiffon;
+}
